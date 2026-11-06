@@ -1,4 +1,1 @@
-*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,sans-serif;background:#0b0b0f;color:#eee}
-header{display:flex;justify-content:space-between;align-items:center;padding:1rem;border-bottom:1px solid #222}
-#mode{opacity:.6;font-size:.85rem}main{padding:1rem}#balance{font-size:1.6rem;margin-bottom:1rem}
-#activity div{padding:.5rem 0;border-bottom:1px solid #1a1a1a;font-size:.9rem}
+body{font-family:system-ui;background:#0b0b0f;color:#eee}
