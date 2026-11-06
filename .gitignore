@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+secrets/
+settings.env
+desk/data/
+desk/logs/
+*.pem
+*.db
+.DS_Store

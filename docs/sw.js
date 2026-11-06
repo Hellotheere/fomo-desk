@@ -1,0 +1,1 @@
+self.addEventListener('push',e=>{const d=e.data?e.data.json():{};e.waitUntil(self.registration.showNotification(d.title||'FOMO desk',{body:d.body,data:d.url}))});self.addEventListener('notificationclick',e=>{e.notification.close();if(e.notification.data)clients.openWindow(e.notification.data)});
